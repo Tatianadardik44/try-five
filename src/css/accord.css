@@ -9,6 +9,13 @@ body .faq-conteiner {
   padding-right: 16px;
   padding-left: 16px;
 }
+.list-item.ac.js-enabled .box-conteiner .box-icon {
+  transform: none;
+}
+
+.list-item.ac.js-enabled.is-active .box-conteiner .box-icon {
+  transform: rotate(180deg);
+}
 @media screen and (min-width: 768px) {
   body .faq-conteiner {
     max-width: 768px;
@@ -84,6 +91,7 @@ body .faq-conteiner {
   height: 34px;
   flex-shrink: 0;
 }
+
 .list-item .list-item-title .box-conteiner-down {
   display: none;
 }
